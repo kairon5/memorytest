@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(58, 58, 247);
+}
+
+@keyframes flip-white {
+    49% {width:0px;}
+    50% {background-color: white;}
+    100% {width:100px;}
+}
+
+.card {
+    user-select: none;
+    text-align:center;
+    font-size: 70px;
+    position:absolute;
+    width:100px;
+    height:135px;
+    background-color: black;
+    color:black;
+    border:7px solid black;
+    border-radius: 20px;
+}
